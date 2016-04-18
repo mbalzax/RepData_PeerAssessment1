@@ -12,7 +12,7 @@ explot <-function ()
   summary (V_dayly_steps)
 
   
-  ### Drawing the plot and saving it to a PNG file
+  ### Drawing the plot 
   hist(V_dayly_steps , main = "Total number of steps taken per day", col= "blue" , xlab = "steps" )
 
   ## What is the average daily activity pattern?
